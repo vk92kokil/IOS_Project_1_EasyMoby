@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE4295571A89442A003B11B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4295561A89442A003B11B0 /* AppDelegate.swift */; };
+		BE4295591A89442A003B11B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4295581A89442A003B11B0 /* ViewController.swift */; };
+		BE42955C1A89442A003B11B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE42955A1A89442A003B11B0 /* Main.storyboard */; };
+		BE42955E1A89442A003B11B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE42955D1A89442A003B11B0 /* Images.xcassets */; };
+		BE4295611A89442A003B11B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE42955F1A89442A003B11B0 /* LaunchScreen.xib */; };
+		BE42956D1A89442A003B11B0 /* EasyMobyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42956C1A89442A003B11B0 /* EasyMobyTests.swift */; };
+		BE4295771A894BBD003B11B0 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4295761A894BBD003B11B0 /* PostViewController.swift */; };
+		BE4295791A8952C7003B11B0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4295781A8952C7003B11B0 /* TableViewCell.swift */; };
+		BE4E374F1A8A0F72007EED7F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E374E1A8A0F72007EED7F /* TableViewController.swift */; };
+		BE4E37511A8A1582007EED7F /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E37501A8A1582007EED7F /* FileReader.swift */; };
+		BEBB81391A8A3A1800BAFE32 /* ProfileViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB81381A8A3A1800BAFE32 /* ProfileViewCell.swift */; };
+		BEBB813B1A8A3AD400BAFE32 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB813A1A8A3AD400BAFE32 /* ProfileViewController.swift */; };
+		BEBB813D1A8A64A400BAFE32 /* FriendsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB813C1A8A64A400BAFE32 /* FriendsViewCell.swift */; };
+		BEBB813F1A8A65EF00BAFE32 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB813E1A8A65EF00BAFE32 /* FriendsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE4295671A89442A003B11B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE4295491A894429003B11B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE4295501A89442A003B11B0;
+			remoteInfo = EasyMoby;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE4295511A89442A003B11B0 /* EasyMoby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyMoby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4295551A89442A003B11B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4295561A89442A003B11B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE4295581A89442A003B11B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE42955B1A89442A003B11B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE42955D1A89442A003B11B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE4295601A89442A003B11B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BE4295661A89442A003B11B0 /* EasyMobyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyMobyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE42956B1A89442A003B11B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE42956C1A89442A003B11B0 /* EasyMobyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMobyTests.swift; sourceTree = "<group>"; };
+		BE4295761A894BBD003B11B0 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		BE4295781A8952C7003B11B0 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BE4E374E1A8A0F72007EED7F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BE4E37501A8A1582007EED7F /* FileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		BEBB81381A8A3A1800BAFE32 /* ProfileViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewCell.swift; sourceTree = "<group>"; };
+		BEBB813A1A8A3AD400BAFE32 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BEBB813C1A8A64A400BAFE32 /* FriendsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewCell.swift; sourceTree = "<group>"; };
+		BEBB813E1A8A65EF00BAFE32 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE42954E1A89442A003B11B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4295631A89442A003B11B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE4295481A894429003B11B0 = {
+			isa = PBXGroup;
+			children = (
+				BE4295531A89442A003B11B0 /* EasyMoby */,
+				BE4295691A89442A003B11B0 /* EasyMobyTests */,
+				BE4295521A89442A003B11B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE4295521A89442A003B11B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE4295511A89442A003B11B0 /* EasyMoby.app */,
+				BE4295661A89442A003B11B0 /* EasyMobyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE4295531A89442A003B11B0 /* EasyMoby */ = {
+			isa = PBXGroup;
+			children = (
+				BE4295561A89442A003B11B0 /* AppDelegate.swift */,
+				BE4295581A89442A003B11B0 /* ViewController.swift */,
+				BE4295761A894BBD003B11B0 /* PostViewController.swift */,
+				BE4295781A8952C7003B11B0 /* TableViewCell.swift */,
+				BE4E374E1A8A0F72007EED7F /* TableViewController.swift */,
+				BEBB81381A8A3A1800BAFE32 /* ProfileViewCell.swift */,
+				BEBB813A1A8A3AD400BAFE32 /* ProfileViewController.swift */,
+				BEBB813C1A8A64A400BAFE32 /* FriendsViewCell.swift */,
+				BEBB813E1A8A65EF00BAFE32 /* FriendsViewController.swift */,
+				BE42955A1A89442A003B11B0 /* Main.storyboard */,
+				BE42955D1A89442A003B11B0 /* Images.xcassets */,
+				BE42955F1A89442A003B11B0 /* LaunchScreen.xib */,
+				BE4295541A89442A003B11B0 /* Supporting Files */,
+				BE4E37501A8A1582007EED7F /* FileReader.swift */,
+			);
+			path = EasyMoby;
+			sourceTree = "<group>";
+		};
+		BE4295541A89442A003B11B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE4295551A89442A003B11B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE4295691A89442A003B11B0 /* EasyMobyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE42956C1A89442A003B11B0 /* EasyMobyTests.swift */,
+				BE42956A1A89442A003B11B0 /* Supporting Files */,
+			);
+			path = EasyMobyTests;
+			sourceTree = "<group>";
+		};
+		BE42956A1A89442A003B11B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE42956B1A89442A003B11B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE4295501A89442A003B11B0 /* EasyMoby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4295701A89442A003B11B0 /* Build configuration list for PBXNativeTarget "EasyMoby" */;
+			buildPhases = (
+				BE42954D1A89442A003B11B0 /* Sources */,
+				BE42954E1A89442A003B11B0 /* Frameworks */,
+				BE42954F1A89442A003B11B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyMoby;
+			productName = EasyMoby;
+			productReference = BE4295511A89442A003B11B0 /* EasyMoby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE4295651A89442A003B11B0 /* EasyMobyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4295731A89442A003B11B0 /* Build configuration list for PBXNativeTarget "EasyMobyTests" */;
+			buildPhases = (
+				BE4295621A89442A003B11B0 /* Sources */,
+				BE4295631A89442A003B11B0 /* Frameworks */,
+				BE4295641A89442A003B11B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE4295681A89442A003B11B0 /* PBXTargetDependency */,
+			);
+			name = EasyMobyTests;
+			productName = EasyMobyTests;
+			productReference = BE4295661A89442A003B11B0 /* EasyMobyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE4295491A894429003B11B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Vikramaditya;
+				TargetAttributes = {
+					BE4295501A89442A003B11B0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BE4295651A89442A003B11B0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BE4295501A89442A003B11B0;
+					};
+				};
+			};
+			buildConfigurationList = BE42954C1A894429003B11B0 /* Build configuration list for PBXProject "EasyMoby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE4295481A894429003B11B0;
+			productRefGroup = BE4295521A89442A003B11B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE4295501A89442A003B11B0 /* EasyMoby */,
+				BE4295651A89442A003B11B0 /* EasyMobyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE42954F1A89442A003B11B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE42955C1A89442A003B11B0 /* Main.storyboard in Resources */,
+				BE4295611A89442A003B11B0 /* LaunchScreen.xib in Resources */,
+				BE42955E1A89442A003B11B0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4295641A89442A003B11B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE42954D1A89442A003B11B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4E37511A8A1582007EED7F /* FileReader.swift in Sources */,
+				BE4295771A894BBD003B11B0 /* PostViewController.swift in Sources */,
+				BE4295791A8952C7003B11B0 /* TableViewCell.swift in Sources */,
+				BEBB81391A8A3A1800BAFE32 /* ProfileViewCell.swift in Sources */,
+				BE4295591A89442A003B11B0 /* ViewController.swift in Sources */,
+				BE4E374F1A8A0F72007EED7F /* TableViewController.swift in Sources */,
+				BEBB813F1A8A65EF00BAFE32 /* FriendsViewController.swift in Sources */,
+				BEBB813B1A8A3AD400BAFE32 /* ProfileViewController.swift in Sources */,
+				BE4295571A89442A003B11B0 /* AppDelegate.swift in Sources */,
+				BEBB813D1A8A64A400BAFE32 /* FriendsViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4295621A89442A003B11B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE42956D1A89442A003B11B0 /* EasyMobyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE4295681A89442A003B11B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE4295501A89442A003B11B0 /* EasyMoby */;
+			targetProxy = BE4295671A89442A003B11B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE42955A1A89442A003B11B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE42955B1A89442A003B11B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE42955F1A89442A003B11B0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE4295601A89442A003B11B0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE42956E1A89442A003B11B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE42956F1A89442A003B11B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE4295711A89442A003B11B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyMoby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE4295721A89442A003B11B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyMoby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE4295741A89442A003B11B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyMobyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyMoby.app/EasyMoby";
+			};
+			name = Debug;
+		};
+		BE4295751A89442A003B11B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyMobyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyMoby.app/EasyMoby";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE42954C1A894429003B11B0 /* Build configuration list for PBXProject "EasyMoby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE42956E1A89442A003B11B0 /* Debug */,
+				BE42956F1A89442A003B11B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4295701A89442A003B11B0 /* Build configuration list for PBXNativeTarget "EasyMoby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4295711A89442A003B11B0 /* Debug */,
+				BE4295721A89442A003B11B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4295731A89442A003B11B0 /* Build configuration list for PBXNativeTarget "EasyMobyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4295741A89442A003B11B0 /* Debug */,
+				BE4295751A89442A003B11B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE4295491A894429003B11B0 /* Project object */;
+}
